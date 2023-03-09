@@ -4,12 +4,24 @@
   <title>Fund Me App</title>
 </head>
   <body>
-      Hello World!
+    Fund Me App
 <!-- we use module here in the 'type' to be able to import 'ethers' in our js file   -->
-      <script src="./index.js" type="module"></script>
-      <br/>
-      <br/><button id="connectButton">Connect</button>
-      <br/>
-      <br/><button id="fundButton">Fund</button>
+    <script src="./index.js" type="module"></script>
+    <br/>
+    <br/><button id="connectButton">Connect</button>
+    <br/>
+    <br/>
+    <label for="fund">ETH Amount</label>
+    <input id="ethAmount" placeholder="1" />
+    <button id="fundButton">Fund</button>
+
+    <br/>
+    <br/>
+    <button id="balanceButton">Balance</button>
+    <label for="balanceButton" id="balanceValue">0.0</label>
+
+    <br/>
+    <br/>
+    <button id="withdrawButton">Withdraw</button>
   </body>
 </html>
